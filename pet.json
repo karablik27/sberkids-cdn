@@ -25,7 +25,8 @@
     "wave": 1,
     "hop": 2,
     "sleep": 0.4,
-    "dance": 0.6
+    "dance": 0.6,
+    "party": 0.3
   },
   "sounds": {
     "enabled": true,
@@ -107,7 +108,8 @@
       "sayChance": 0.6,
       "sound": [
         "sounds/mascot/tap.wav"
-      ]
+      ],
+      "animation": "party"
     },
     "grab": {
       "say": [
@@ -149,7 +151,8 @@
         "Эй, переверни!",
         "Мир вверх ногами!"
       ],
-      "cooldown": 6
+      "cooldown": 6,
+      "animation": "shiver"
     },
     "hop": {
       "sound": [
@@ -211,7 +214,7 @@
       "sound": [
         "sounds/mascot/celebrate.wav"
       ],
-      "animation": "dance"
+      "animation": "party"
     }
   },
   "forceSkin": null,
@@ -259,7 +262,13 @@
       "id": "car",
       "path": "characters/car/character.json",
       "weight": 0
+    },
+    {
+      "id": "snowman",
+      "path": "characters/snowman/character.json",
+      "from": "12-15",
+      "to": "01-10"
     }
   ],
-  "forceCharacter": "car"
+  "forceCharacter": "snowman"
 }

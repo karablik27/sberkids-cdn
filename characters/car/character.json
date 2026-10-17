@@ -58,6 +58,17 @@
         "sleep": {
           "dy": 2,
           "rotate": 20
+        },
+        "party": {
+          "swing": 35,
+          "freq": 1.5
+        },
+        "drift": {
+          "rotate": -40
+        },
+        "shiver": {
+          "swing": 10,
+          "freq": 4
         }
       }
     },
@@ -109,6 +120,10 @@
         },
         "sleep": {
           "dy": 2
+        },
+        "party": {
+          "swing": 8,
+          "freq": 1.2
         }
       }
     },
@@ -167,6 +182,10 @@
         },
         "sleep": {
           "dy": 2
+        },
+        "party": {
+          "swing": 8,
+          "freq": 1.2
         }
       }
     },
@@ -222,6 +241,10 @@
         },
         "sleep": {
           "dy": 2
+        },
+        "party": {
+          "swing": 8,
+          "freq": 1.2
         }
       }
     },
@@ -305,6 +328,12 @@
         },
         "celebrate": {
           "spin": 45
+        },
+        "party": {
+          "spin": 60
+        },
+        "drift": {
+          "spin": 90
         }
       }
     },
@@ -337,8 +366,36 @@
         },
         "celebrate": {
           "spin": 45
+        },
+        "party": {
+          "spin": 60
+        },
+        "drift": {
+          "spin": 90
         }
       }
     }
-  ]
+  ],
+  "animations": {
+    "party": {
+      "duration": 2.4,
+      "bob": 5,
+      "sway": 3,
+      "freq": 2.5,
+      "expression": "happy",
+      "effect": "sparkles"
+    },
+    "drift": {
+      "duration": 1.4,
+      "spin": 360,
+      "expression": "scared",
+      "effect": "stars"
+    },
+    "shiver": {
+      "duration": 1.6,
+      "sway": 1.5,
+      "freq": 9,
+      "expression": "scared"
+    }
+  }
 }

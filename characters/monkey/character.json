@@ -42,6 +42,14 @@
         "dizzy": {
           "swing": 6,
           "dy": 7
+        },
+        "party": {
+          "swing": 25,
+          "freq": 2
+        },
+        "shiver": {
+          "swing": 4,
+          "freq": 4
         }
       }
     },
@@ -96,6 +104,9 @@
         "dizzy": {
           "rotate": -70,
           "dy": -1
+        },
+        "party": {
+          "swing": 35
         }
       }
     },
@@ -150,6 +161,10 @@
         "dizzy": {
           "rotate": 70,
           "dy": -1
+        },
+        "party": {
+          "swing": 35,
+          "phase": 0.5
         }
       }
     },
@@ -230,6 +245,14 @@
         },
         "dizzy": {
           "dy": 7
+        },
+        "party": {
+          "rotate": 160,
+          "swing": 30,
+          "freq": 1.6
+        },
+        "shiver": {
+          "rotate": 40
         }
       }
     },
@@ -292,6 +315,15 @@
         },
         "dizzy": {
           "dy": 7
+        },
+        "party": {
+          "rotate": -160,
+          "swing": 30,
+          "freq": 1.6,
+          "phase": 0.5
+        },
+        "shiver": {
+          "rotate": -40
         }
       }
     },
@@ -325,6 +357,10 @@
           "bob": 1.5,
           "dy": -1.5,
           "freq": 2
+        },
+        "party": {
+          "swing": 8,
+          "freq": 1.5
         }
       }
     },
@@ -365,6 +401,10 @@
           "bob": 1.5,
           "dy": -1.5,
           "freq": 2
+        },
+        "party": {
+          "swing": 8,
+          "freq": 1.5
         }
       }
     },
@@ -402,6 +442,10 @@
           "bob": 1.5,
           "dy": -1.5,
           "freq": 2
+        },
+        "party": {
+          "swing": 8,
+          "freq": 1.5
         }
       }
     },
@@ -436,8 +480,28 @@
           "bob": 1.5,
           "dy": -1.5,
           "freq": 2
+        },
+        "party": {
+          "swing": 8,
+          "freq": 1.5
         }
       }
     }
-  ]
+  ],
+  "animations": {
+    "party": {
+      "duration": 2.6,
+      "spin": 280,
+      "bob": 6,
+      "freq": 2.5,
+      "expression": "happy",
+      "effect": "sparkles"
+    },
+    "shiver": {
+      "duration": 1.6,
+      "sway": 1.5,
+      "freq": 9,
+      "expression": "scared"
+    }
+  }
 }
