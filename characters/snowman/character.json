@@ -14,9 +14,9 @@
   "animations": {
     "party": {
       "duration": 2.6,
-      "spin": 220,
-      "bob": 5,
-      "freq": 2.5,
+      "bob": 7,
+      "sway": 6,
+      "freq": 1.5,
       "expression": "happy",
       "effect": "sparkles"
     },
@@ -38,7 +38,13 @@
       "at": [
         32,
         78
-      ]
+      ],
+      "motion": {
+        "party": {
+          "bob": 1,
+          "freq": 3
+        }
+      }
     },
     {
       "id": "armLeft",
@@ -210,8 +216,9 @@
           "freq": 2
         },
         "party": {
-          "sway": 1.5,
-          "freq": 1.5
+          "bob": 2.5,
+          "freq": 3,
+          "phase": 0.12
         },
         "sit": {
           "dy": 2
@@ -251,8 +258,9 @@
           "freq": 2
         },
         "party": {
-          "sway": 2.25,
-          "freq": 1.5
+          "bob": 3,
+          "freq": 3,
+          "phase": 0.16
         },
         "sit": {
           "dy": 2
@@ -292,8 +300,9 @@
           "freq": 2
         },
         "party": {
-          "sway": 3.0,
-          "freq": 1.5
+          "bob": 4,
+          "freq": 3,
+          "phase": 0.24
         },
         "sit": {
           "dy": 2
@@ -340,8 +349,9 @@
           "freq": 2
         },
         "party": {
-          "sway": 3.0,
-          "freq": 1.5
+          "bob": 4,
+          "freq": 3,
+          "phase": 0.24
         },
         "sit": {
           "dy": 2
@@ -385,8 +395,9 @@
           "freq": 2
         },
         "party": {
-          "sway": 3.0,
-          "freq": 1.5
+          "bob": 4,
+          "freq": 3,
+          "phase": 0.24
         },
         "sit": {
           "dy": 2
@@ -430,8 +441,9 @@
           "freq": 2
         },
         "party": {
-          "sway": 3.0,
-          "freq": 1.5
+          "bob": 4,
+          "freq": 3,
+          "phase": 0.24
         },
         "sit": {
           "dy": 2
@@ -472,8 +484,9 @@
           "freq": 2
         },
         "party": {
-          "sway": 3.0,
-          "freq": 1.5
+          "bob": 5,
+          "freq": 3,
+          "phase": 0.3
         },
         "sit": {
           "dy": 2
