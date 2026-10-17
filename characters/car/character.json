@@ -1,0 +1,344 @@
+{
+  "size": [
+    80,
+    50
+  ],
+  "foot": [
+    40,
+    50
+  ],
+  "head": [
+    46,
+    6
+  ],
+  "parts": [
+    {
+      "id": "antenna",
+      "image": "antenna.png",
+      "size": [
+        4,
+        16
+      ],
+      "at": [
+        24,
+        14
+      ],
+      "pivot": [
+        0.5,
+        1
+      ],
+      "motion": {
+        "idle": {
+          "swing": 5
+        },
+        "walk": {
+          "swing": 14
+        },
+        "celebrate": {
+          "swing": 25,
+          "freq": 1.5
+        },
+        "dance": {
+          "swing": 25
+        },
+        "air": {
+          "rotate": -35
+        },
+        "grabbed": {
+          "swing": 20
+        },
+        "wave": {
+          "rotate": -10,
+          "swing": 30,
+          "freq": 5
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2,
+          "rotate": 20
+        }
+      }
+    },
+    {
+      "id": "body",
+      "image": "body.png",
+      "size": [
+        76,
+        32
+      ],
+      "at": [
+        40,
+        26
+      ],
+      "motion": {
+        "idle": {
+          "bob": 0.6
+        },
+        "walk": {
+          "bob": 1,
+          "freq": 2
+        },
+        "celebrate": {
+          "bob": 3,
+          "freq": 2
+        },
+        "dance": {
+          "swing": 6
+        },
+        "grabbed": {
+          "swing": 10
+        },
+        "air": {
+          "rotate": -6
+        },
+        "descend": {
+          "rotate": -4
+        },
+        "dizzy": {
+          "swing": 5,
+          "freq": 3
+        },
+        "wave": {
+          "swing": 4,
+          "freq": 3
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2
+        }
+      }
+    },
+    {
+      "id": "eyes",
+      "images": {
+        "normal": "eyes_normal.png",
+        "blink": "eyes_blink.png",
+        "happy": "eyes_happy.png",
+        "sleepy": "eyes_sleepy.png",
+        "dizzy": "eyes_dizzy.png",
+        "scared": "eyes_scared.png"
+      },
+      "size": [
+        20,
+        10
+      ],
+      "at": [
+        46,
+        16
+      ],
+      "motion": {
+        "idle": {
+          "bob": 0.6
+        },
+        "walk": {
+          "bob": 1,
+          "freq": 2
+        },
+        "celebrate": {
+          "bob": 3,
+          "freq": 2
+        },
+        "dance": {
+          "swing": 6
+        },
+        "grabbed": {
+          "swing": 10
+        },
+        "air": {
+          "rotate": -6
+        },
+        "descend": {
+          "rotate": -4
+        },
+        "dizzy": {
+          "swing": 5,
+          "freq": 3
+        },
+        "wave": {
+          "swing": 4,
+          "freq": 3
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2
+        }
+      }
+    },
+    {
+      "id": "mouth",
+      "images": {
+        "normal": "mouth_normal.png",
+        "happy": "mouth_happy.png",
+        "scared": "mouth_scared.png"
+      },
+      "size": [
+        10,
+        6
+      ],
+      "at": [
+        66,
+        30
+      ],
+      "motion": {
+        "idle": {
+          "bob": 0.6
+        },
+        "walk": {
+          "bob": 1,
+          "freq": 2
+        },
+        "celebrate": {
+          "bob": 3,
+          "freq": 2
+        },
+        "dance": {
+          "swing": 6
+        },
+        "grabbed": {
+          "swing": 10
+        },
+        "air": {
+          "rotate": -6
+        },
+        "descend": {
+          "rotate": -4
+        },
+        "dizzy": {
+          "swing": 5,
+          "freq": 3
+        },
+        "wave": {
+          "swing": 4,
+          "freq": 3
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2
+        }
+      }
+    },
+    {
+      "id": "hat",
+      "size": [
+        30,
+        24
+      ],
+      "at": [
+        34,
+        0
+      ],
+      "fit": true,
+      "motion": {
+        "idle": {
+          "bob": 0.6
+        },
+        "walk": {
+          "bob": 1,
+          "freq": 2
+        },
+        "celebrate": {
+          "bob": 3,
+          "freq": 2
+        },
+        "dance": {
+          "swing": 6
+        },
+        "grabbed": {
+          "swing": 10
+        },
+        "air": {
+          "rotate": -6
+        },
+        "descend": {
+          "rotate": -4
+        },
+        "dizzy": {
+          "swing": 5,
+          "freq": 3
+        },
+        "wave": {
+          "swing": 4,
+          "freq": 3
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2
+        }
+      }
+    },
+    {
+      "id": "wheelBack",
+      "image": "wheel.png",
+      "size": [
+        18,
+        18
+      ],
+      "at": [
+        20,
+        41
+      ],
+      "motion": {
+        "walk": {
+          "spin": 45
+        },
+        "air": {
+          "spin": 45
+        },
+        "grabbed": {
+          "spin": 45
+        },
+        "descend": {
+          "spin": 45
+        },
+        "dance": {
+          "spin": 45
+        },
+        "celebrate": {
+          "spin": 45
+        }
+      }
+    },
+    {
+      "id": "wheelFront",
+      "image": "wheel.png",
+      "size": [
+        18,
+        18
+      ],
+      "at": [
+        60,
+        41
+      ],
+      "motion": {
+        "walk": {
+          "spin": 45
+        },
+        "air": {
+          "spin": 45
+        },
+        "grabbed": {
+          "spin": 45
+        },
+        "descend": {
+          "spin": 45
+        },
+        "dance": {
+          "spin": 45
+        },
+        "celebrate": {
+          "spin": 45
+        }
+      }
+    }
+  ]
+}
