@@ -1,0 +1,470 @@
+{
+  "size": [
+    64,
+    82
+  ],
+  "foot": [
+    32,
+    82
+  ],
+  "head": [
+    32,
+    6
+  ],
+  "animations": {
+    "party": {
+      "duration": 2.6,
+      "bob": 7,
+      "sway": 6,
+      "freq": 1.5,
+      "expression": "happy",
+      "effect": "sparkles"
+    },
+    "shiver": {
+      "duration": 1.6,
+      "sway": 1.5,
+      "freq": 9,
+      "expression": "scared"
+    }
+  },
+  "parts": [
+    {
+      "id": "legLeft",
+      "image": "leg.png",
+      "size": [
+        9,
+        16
+      ],
+      "at": [
+        27,
+        66
+      ],
+      "pivot": [
+        0.5,
+        0
+      ],
+      "motion": {
+        "walk": {
+          "swing": 30,
+          "phase": 0
+        },
+        "air": {
+          "swing": 30,
+          "phase": 0
+        },
+        "grabbed": {
+          "swing": 30,
+          "phase": 0
+        },
+        "dance": {
+          "swing": 30,
+          "phase": 0
+        },
+        "celebrate": {
+          "swing": 30,
+          "phase": 0
+        },
+        "descend": {
+          "swing": 30,
+          "phase": 0
+        },
+        "sit": {
+          "rotate": -70,
+          "dy": -1
+        },
+        "sleep": {
+          "rotate": -70,
+          "dy": -1
+        },
+        "dizzy": {
+          "rotate": -70,
+          "dy": -1
+        },
+        "party": {
+          "swing": 35
+        }
+      }
+    },
+    {
+      "id": "legRight",
+      "image": "leg.png",
+      "size": [
+        9,
+        16
+      ],
+      "at": [
+        37,
+        66
+      ],
+      "pivot": [
+        0.5,
+        0
+      ],
+      "motion": {
+        "walk": {
+          "swing": 30,
+          "phase": 0.5
+        },
+        "air": {
+          "swing": 30,
+          "phase": 0.5
+        },
+        "grabbed": {
+          "swing": 30,
+          "phase": 0.5
+        },
+        "dance": {
+          "swing": 30,
+          "phase": 0.5
+        },
+        "celebrate": {
+          "swing": 30,
+          "phase": 0.5
+        },
+        "descend": {
+          "swing": 30,
+          "phase": 0.5
+        },
+        "sit": {
+          "rotate": 70,
+          "dy": -1
+        },
+        "sleep": {
+          "rotate": 70,
+          "dy": -1
+        },
+        "dizzy": {
+          "rotate": 70,
+          "dy": -1
+        },
+        "party": {
+          "swing": 35,
+          "phase": 0.5
+        }
+      }
+    },
+    {
+      "id": "armLeft",
+      "image": "arm.png",
+      "size": [
+        9,
+        22
+      ],
+      "at": [
+        19,
+        45
+      ],
+      "pivot": [
+        0.5,
+        0
+      ],
+      "motion": {
+        "default": {
+          "rotate": 25
+        },
+        "walk": {
+          "rotate": 25,
+          "swing": 22,
+          "phase": 0
+        },
+        "wave": {
+          "rotate": 45
+        },
+        "celebrate": {
+          "rotate": 150,
+          "swing": 25,
+          "freq": 1.2,
+          "phase": 0
+        },
+        "dance": {
+          "rotate": 150,
+          "swing": 25,
+          "freq": 1.2,
+          "phase": 0
+        },
+        "party": {
+          "rotate": 160,
+          "swing": 30,
+          "freq": 1.6,
+          "phase": 0
+        },
+        "grabbed": {
+          "rotate": 120,
+          "swing": 20
+        },
+        "air": {
+          "rotate": 120,
+          "swing": 20
+        },
+        "descend": {
+          "rotate": 160
+        },
+        "sleep": {
+          "rotate": 15,
+          "dy": 2
+        },
+        "sit": {
+          "rotate": 30,
+          "dy": 2
+        },
+        "shiver": {
+          "rotate": 100,
+          "swing": 6,
+          "freq": 6
+        }
+      }
+    },
+    {
+      "id": "armRight",
+      "image": "arm.png",
+      "size": [
+        9,
+        22
+      ],
+      "at": [
+        45,
+        45
+      ],
+      "pivot": [
+        0.5,
+        0
+      ],
+      "motion": {
+        "default": {
+          "rotate": -25
+        },
+        "walk": {
+          "rotate": -25,
+          "swing": 22,
+          "phase": 0.5
+        },
+        "wave": {
+          "rotate": -150,
+          "swing": 25,
+          "freq": 5.45
+        },
+        "celebrate": {
+          "rotate": -150,
+          "swing": 25,
+          "freq": 1.2,
+          "phase": 0.5
+        },
+        "dance": {
+          "rotate": -150,
+          "swing": 25,
+          "freq": 1.2,
+          "phase": 0.5
+        },
+        "party": {
+          "rotate": -160,
+          "swing": 30,
+          "freq": 1.6,
+          "phase": 0.5
+        },
+        "grabbed": {
+          "rotate": -120,
+          "swing": 20
+        },
+        "air": {
+          "rotate": -120,
+          "swing": 20
+        },
+        "descend": {
+          "rotate": -160
+        },
+        "sleep": {
+          "rotate": -15,
+          "dy": 2
+        },
+        "sit": {
+          "rotate": -30,
+          "dy": 2
+        },
+        "shiver": {
+          "rotate": -100,
+          "swing": 6,
+          "freq": 6
+        }
+      }
+    },
+    {
+      "id": "body",
+      "image": "body.png",
+      "size": [
+        32,
+        30
+      ],
+      "at": [
+        32,
+        57
+      ],
+      "motion": {
+        "walk": {
+          "sway": 1,
+          "freq": 1
+        },
+        "dance": {
+          "bob": 2,
+          "freq": 2,
+          "sway": 1
+        },
+        "celebrate": {
+          "bob": 2,
+          "freq": 2
+        },
+        "party": {
+          "bob": 2.5,
+          "freq": 3,
+          "phase": 0.12
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2.5
+        },
+        "dizzy": {
+          "sway": 1,
+          "freq": 3
+        }
+      }
+    },
+    {
+      "id": "head",
+      "image": "head.png",
+      "size": [
+        46,
+        42
+      ],
+      "at": [
+        32,
+        24
+      ],
+      "motion": {
+        "walk": {
+          "sway": 2,
+          "freq": 1
+        },
+        "dance": {
+          "bob": 2,
+          "freq": 2,
+          "sway": 2
+        },
+        "celebrate": {
+          "bob": 2,
+          "freq": 2
+        },
+        "party": {
+          "bob": 4,
+          "freq": 3,
+          "phase": 0.24
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2.5
+        },
+        "dizzy": {
+          "sway": 2,
+          "freq": 3
+        }
+      }
+    },
+    {
+      "id": "eyes",
+      "images": {
+        "normal": "eyes_normal.png",
+        "blink": "eyes_blink.png",
+        "happy": "eyes_happy.png",
+        "sleepy": "eyes_sleepy.png",
+        "dizzy": "eyes_dizzy.png",
+        "scared": "eyes_scared.png"
+      },
+      "size": [
+        28,
+        13
+      ],
+      "at": [
+        32,
+        23
+      ],
+      "motion": {
+        "walk": {
+          "sway": 2,
+          "freq": 1
+        },
+        "dance": {
+          "bob": 2,
+          "freq": 2,
+          "sway": 2
+        },
+        "celebrate": {
+          "bob": 2,
+          "freq": 2
+        },
+        "party": {
+          "bob": 4,
+          "freq": 3,
+          "phase": 0.24
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2.5
+        },
+        "dizzy": {
+          "sway": 2,
+          "freq": 3
+        }
+      }
+    },
+    {
+      "id": "mouth",
+      "images": {
+        "normal": "mouth_normal.png",
+        "happy": "mouth_happy.png",
+        "scared": "mouth_scared.png"
+      },
+      "size": [
+        34,
+        16
+      ],
+      "at": [
+        32,
+        35
+      ],
+      "motion": {
+        "walk": {
+          "sway": 2,
+          "freq": 1
+        },
+        "dance": {
+          "bob": 2,
+          "freq": 2,
+          "sway": 2
+        },
+        "celebrate": {
+          "bob": 2,
+          "freq": 2
+        },
+        "party": {
+          "bob": 4,
+          "freq": 3,
+          "phase": 0.24
+        },
+        "sit": {
+          "dy": 2
+        },
+        "sleep": {
+          "dy": 2.5
+        },
+        "dizzy": {
+          "sway": 2,
+          "freq": 3
+        }
+      }
+    }
+  ]
+}

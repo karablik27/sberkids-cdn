@@ -50,6 +50,10 @@
         "shiver": {
           "swing": 4,
           "freq": 4
+        },
+        "sixSeven": {
+          "swing": 20,
+          "freq": 2.3
         }
       }
     },
@@ -107,6 +111,10 @@
         },
         "party": {
           "swing": 35
+        },
+        "sixSeven": {
+          "swing": 8,
+          "freq": 1.15
         }
       }
     },
@@ -164,6 +172,11 @@
         },
         "party": {
           "swing": 35,
+          "phase": 0.5
+        },
+        "sixSeven": {
+          "swing": 8,
+          "freq": 1.15,
           "phase": 0.5
         }
       }
@@ -253,6 +266,11 @@
         },
         "shiver": {
           "rotate": 40
+        },
+        "sixSeven": {
+          "rotate": 95,
+          "swing": 28,
+          "freq": 1.15
         }
       }
     },
@@ -324,6 +342,11 @@
         },
         "shiver": {
           "rotate": -40
+        },
+        "sixSeven": {
+          "rotate": -95,
+          "swing": 28,
+          "freq": 1.15
         }
       }
     },
@@ -361,6 +384,10 @@
         "party": {
           "swing": 8,
           "freq": 1.5
+        },
+        "sixSeven": {
+          "swing": 5,
+          "freq": 1.15
         }
       }
     },
@@ -405,6 +432,10 @@
         "party": {
           "swing": 8,
           "freq": 1.5
+        },
+        "sixSeven": {
+          "swing": 5,
+          "freq": 1.15
         }
       }
     },
@@ -446,6 +477,10 @@
         "party": {
           "swing": 8,
           "freq": 1.5
+        },
+        "sixSeven": {
+          "swing": 5,
+          "freq": 1.15
         }
       }
     },
@@ -484,6 +519,62 @@
         "party": {
           "swing": 8,
           "freq": 1.5
+        },
+        "sixSeven": {
+          "swing": 5,
+          "freq": 1.15
+        }
+      }
+    },
+    {
+      "id": "six",
+      "image": "six.png",
+      "size": [
+        72,
+        72
+      ],
+      "at": [
+        20,
+        43
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "motion": {
+        "default": {
+          "hidden": true
+        },
+        "sixSeven": {
+          "rotate": 95,
+          "swing": 28,
+          "freq": 1.15
+        }
+      }
+    },
+    {
+      "id": "seven",
+      "image": "seven.png",
+      "size": [
+        72,
+        72
+      ],
+      "at": [
+        44,
+        43
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "motion": {
+        "default": {
+          "hidden": true
+        },
+        "sixSeven": {
+          "rotate": -95,
+          "swing": 28,
+          "freq": 1.15
         }
       }
     }
@@ -502,6 +593,13 @@
       "sway": 1.5,
       "freq": 9,
       "expression": "scared"
+    },
+    "sixSeven": {
+      "duration": 3,
+      "bob": 2,
+      "freq": 1.83,
+      "expression": "happy",
+      "mirror": false
     }
   }
 }

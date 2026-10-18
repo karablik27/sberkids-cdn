@@ -26,13 +26,31 @@
     "hop": 2,
     "sleep": 0.4,
     "dance": 0.6,
-    "party": 0.3
+    "party": 0.3,
+    "hide": 0.8,
+    "sixSeven": 0.4
   },
   "sounds": {
     "enabled": true,
     "volume": 0.6
   },
   "reactions": {
+    "hide": {
+      "say": [
+        "Тсс… я спрятался",
+        "Найди меня!",
+        "Меня тут нет"
+      ],
+      "sayChance": 0.7
+    },
+    "found": {
+      "say": [
+        "Нашёл!",
+        "Ой, ты меня нашёл!",
+        "Ку-ку!"
+      ],
+      "animation": "celebrate"
+    },
     "hello": {
       "say": [
         "Привет!",
@@ -109,7 +127,17 @@
       "sound": [
         "sounds/mascot/tap.wav"
       ],
-      "animation": "party"
+      "animation": [
+        "sixSeven",
+        "party"
+      ]
+    },
+    "sixSeven": {
+      "say": [
+        "Шесть-семь!",
+        "Six seven!",
+        "6-7!"
+      ]
     },
     "grab": {
       "say": [
@@ -269,7 +297,13 @@
       "path": "characters/snowman/character.json",
       "from": "12-15",
       "to": "01-10"
+    },
+    {
+      "id": "pumpkin",
+      "path": "characters/pumpkin/character.json",
+      "from": "10-15",
+      "to": "11-02"
     }
   ],
-  "forceCharacter": "snowman"
+  "forceCharacter": "pumpkin"
 }
