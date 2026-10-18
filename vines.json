@@ -21,8 +21,8 @@
         17
       ],
       "length": [
-        0.1,
-        0.34
+        0.07,
+        0.24
       ],
       "sound": {
         "enabled": true,
@@ -33,19 +33,30 @@
           "sounds/vines/matrix_3.wav"
         ]
       },
-      "scale": 1.4
+      "scale": 1.15
     },
     {
       "id": "autumn",
       "weight": 2,
       "from": "09-01",
       "to": "11-15",
-      "glyphs": ["🍂", "🍁", "🌰"],
-      "head": ["🍁", "🌰"],
+      "glyphs": [
+        "🍂",
+        "🍁",
+        "🌰"
+      ],
+      "head": [
+        "🍁",
+        "🌰"
+      ],
       "itemEvery": 2,
       "thread": "#8A5A2B",
       "threadWidth": 1.5,
-      "colors": ["#C65D2E", "#E39B27", "#79462B"],
+      "colors": [
+        "#C65D2E",
+        "#E39B27",
+        "#79462B"
+      ],
       "headColor": "#A84C24",
       "glyphSize": [
         18,
@@ -53,8 +64,8 @@
       ],
       "headSize": 20,
       "length": [
-        0.08,
-        0.26
+        0.06,
+        0.19
       ],
       "count": 9,
       "sway": 1.4,
@@ -63,7 +74,9 @@
         "images/leaf_maple_orange.png",
         "images/leaf_oak.png"
       ],
-      "headImages": ["images/acorn.png"],
+      "headImages": [
+        "images/acorn.png"
+      ],
       "sound": {
         "enabled": true,
         "volume": 0.9,
@@ -73,19 +86,34 @@
           "sounds/vines/autumn_3.wav"
         ]
       },
-      "scale": 1.4
+      "scale": 1.15
     },
     {
       "id": "halloween",
       "weight": 5,
       "from": "10-25",
       "to": "11-02",
-      "glyphs": ["🎃", "🕸️", "🦇"],
-      "head": ["👻", "🕷️"],
-      "colors": ["#F28C28", "#9B59B6", "#4A3A63"],
+      "glyphs": [
+        "🎃",
+        "🕸️",
+        "🦇"
+      ],
+      "head": [
+        "👻",
+        "🕷️"
+      ],
+      "colors": [
+        "#F28C28",
+        "#9B59B6",
+        "#4A3A63"
+      ],
       "headColor": "#F5C451",
-      "images": ["images/pumpkin.png"],
-      "headImages": ["images/spider.png"],
+      "images": [
+        "images/pumpkin.png"
+      ],
+      "headImages": [
+        "images/spider.png"
+      ],
       "itemEvery": 6,
       "thread": "#766582",
       "threadWidth": 1.5,
@@ -95,8 +123,8 @@
       ],
       "headSize": 32,
       "length": [
-        0.12,
-        0.4
+        0.08,
+        0.28
       ],
       "count": 7,
       "sway": 0.6,
@@ -110,16 +138,29 @@
           "sounds/vines/halloween_3.wav"
         ]
       },
-      "scale": 1.4
+      "scale": 1.15
     },
     {
       "id": "newyear",
       "weight": 5,
       "from": "12-15",
       "to": "01-10",
-      "glyphs": ["🔴", "🟡", "🔵", "🟢"],
-      "head": ["🎄", "⭐"],
-      "colors": ["#D4242F", "#D4A72C", "#237A45", "#2D62A8"],
+      "glyphs": [
+        "🔴",
+        "🟡",
+        "🔵",
+        "🟢"
+      ],
+      "head": [
+        "🎄",
+        "⭐"
+      ],
+      "colors": [
+        "#D4242F",
+        "#D4A72C",
+        "#237A45",
+        "#2D62A8"
+      ],
       "headColor": "#D4A72C",
       "images": [
         "images/ornament_red.png",
@@ -127,7 +168,9 @@
         "images/ornament_blue.png",
         "images/ornament_green.png"
       ],
-      "headImages": ["images/candy_cane.png"],
+      "headImages": [
+        "images/candy_cane.png"
+      ],
       "itemEvery": 3,
       "thread": "#2E6B3A",
       "threadWidth": 2,
@@ -137,8 +180,8 @@
       ],
       "headSize": 26,
       "length": [
-        0.1,
-        0.3
+        0.07,
+        0.22
       ],
       "count": 8,
       "sway": 0.8,
@@ -151,7 +194,7 @@
           "sounds/vines/chain_3.wav"
         ]
       },
-      "scale": 1.4
+      "scale": 1.15
     }
   ]
 }
