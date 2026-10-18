@@ -251,6 +251,7 @@
     "opacity": 0.5,
     "blur": false,
     "cornerRadius": 12,
+    "maxChars": 10,
     "duration": 2.4
   },
   "characters": [
