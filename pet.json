@@ -299,11 +299,16 @@
       "to": "01-10"
     },
     {
+      "id": "monkey-autumn",
+      "path": "characters/monkey/character.json",
+      "from": "09-01",
+      "to": "11-15"
+    },
+    {
       "id": "pumpkin",
       "path": "characters/pumpkin/character.json",
       "from": "10-15",
       "to": "11-02"
     }
-  ],
-  "forceCharacter": "monkey"
+  ]
 }
