@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "cooldownMinutes": 0,
-  "forcePack": "matrix",
+  "forcePack": "newyear",
   "packs": [
     {
       "id": "matrix",
