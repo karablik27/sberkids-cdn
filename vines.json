@@ -33,7 +33,9 @@
           "sounds/vines/matrix_3.wav"
         ]
       },
-      "scale": 1.15
+      "scale": 1.15,
+      "spacing": 0.12,
+      "overlapOpacity": 0.38
     },
     {
       "id": "autumn",
@@ -86,7 +88,9 @@
           "sounds/vines/autumn_3.wav"
         ]
       },
-      "scale": 1.15
+      "scale": 1.15,
+      "spacing": 0.11,
+      "overlapOpacity": 0.38
     },
     {
       "id": "halloween",
@@ -138,7 +142,9 @@
           "sounds/vines/halloween_3.wav"
         ]
       },
-      "scale": 1.15
+      "scale": 1.15,
+      "spacing": 0.14,
+      "overlapOpacity": 0.38
     },
     {
       "id": "newyear",
@@ -194,7 +200,9 @@
           "sounds/vines/chain_3.wav"
         ]
       },
-      "scale": 1.15
+      "scale": 1.15,
+      "spacing": 0.125,
+      "overlapOpacity": 0.38
     }
   ]
 }
