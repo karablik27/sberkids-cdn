@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "cooldownMinutes": 0,
-  "forcePack": null,
+  "forcePack": "matrix",
   "packs": [
     {
       "id": "matrix",
